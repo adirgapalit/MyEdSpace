@@ -4,7 +4,6 @@ namespace LMS;
 
 use DateTimeImmutable;
 use LMS\Content\Content;
-use Student;
 
 class AccessControlService
 {

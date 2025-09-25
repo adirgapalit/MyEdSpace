@@ -42,7 +42,7 @@ class ComposerStaticInit6e844bedd2e7e574f0113c8bdba203e2
         ),
         'LMS\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src/LMS',
+            0 => __DIR__ . '/../..' . '/src',
         ),
         'Doctrine\\Instantiator\\' => 
         array (

@@ -3,7 +3,7 @@
         'name' => 'myedspace/lms-backend-challenge',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'ffce5d25e0438661c87010657cbb6771bc10c578',
+        'reference' => '2a17a8e8c6eedda99802b2be4ce6eba2e3de5944',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -31,7 +31,7 @@
         'myedspace/lms-backend-challenge' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'ffce5d25e0438661c87010657cbb6771bc10c578',
+            'reference' => '2a17a8e8c6eedda99802b2be4ce6eba2e3de5944',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

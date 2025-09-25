@@ -8,7 +8,7 @@
   },
   "autoload": {
     "psr-4": {
-      "LMS\\": "src/LMS/"
+      "LMS\\": "src/"
     }
   },
   "autoload-dev": {

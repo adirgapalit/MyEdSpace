@@ -3,7 +3,6 @@
 namespace LMS;
 
 use DateTimeImmutable;
-use Student;
 
 class Enrolment
 {
