@@ -1,0 +1,21 @@
+{
+  "name": "myedspace/lms-backend-challenge",
+  "description": "Simplified LMS backend access control exercise",
+  "type": "project",
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "LMS\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "LMS\\Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "stable",
+  "license": "MIT"
+}
