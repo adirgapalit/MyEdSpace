@@ -14,10 +14,10 @@ use PHPUnit\Framework\TestCase;
 
 class AccessControlServiceTest extends TestCase
 {
-//    protected Student $emma;
-//    protected Course $biology;
-//    protected Enrolment $enrolment;
-//    protected AccessControlService $acs;
+    protected $emma;
+    protected $biology;
+    protected $enrolment;
+    protected $acs;
 
     protected function setUp(): void
     {
