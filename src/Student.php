@@ -3,8 +3,8 @@
 namespace LMS;
 class Student
 {
-    private string $id;
-    private string $name;
+    public $id;
+    public $name;
 
     public function __construct(string $id, string $name)
     {

@@ -7,12 +7,12 @@ use LMS\Content\Content;
 
 class Course
 {
-    private string $id;
-    private string $title;
-    private DateTimeImmutable $startDate;
-    private?DateTimeImmutable $endDate;
+    private $id;
+    private $title;
+    private $startDate;
+    private $endDate;
     /** @var Content[] */
-    private array $contents = [];
+    private $contents = [];
 
     public function __construct(string $id, string $title, DateTimeImmutable $startDate, ?DateTimeImmutable $endDate = null)
     {

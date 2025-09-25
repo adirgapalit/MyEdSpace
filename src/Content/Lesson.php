@@ -7,7 +7,7 @@ use LMS\Course;
 
 class Lesson extends Content
 {
-    private DateTimeImmutable $scheduledAt;
+    private $scheduledAt;
 
     public function __construct(string $id, string $title, DateTimeImmutable $scheduledAt)
     {

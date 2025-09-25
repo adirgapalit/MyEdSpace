@@ -8,7 +8,7 @@ use LMS\Content\Content;
 class AccessControlService
 {
     /** @var Enrolment[] */
-    private array $enrolments = [];
+    private $enrolments = [];
 
     public function addEnrolment(Enrolment $enrolment): void
     {

@@ -14,14 +14,10 @@ use PHPUnit\Framework\TestCase;
 
 class AccessControlServiceTest extends TestCase
 {
-    public function testDummy()
-    {
-        $this->assertTrue(true);
-    }
-    private Student $emma;
-    private Course $biology;
-    private Enrolment $enrolment;
-    private AccessControlService $acs;
+//    protected Student $emma;
+//    protected Course $biology;
+//    protected Enrolment $enrolment;
+//    protected AccessControlService $acs;
 
     protected function setUp(): void
     {

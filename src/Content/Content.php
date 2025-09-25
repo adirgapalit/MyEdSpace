@@ -7,8 +7,8 @@ use LMS\Course;
 
 abstract class Content
 {
-    protected string $id;
-    protected string $title;
+    protected $id;
+    protected $title;
 
     public function __construct(string $id, string $title)
     {

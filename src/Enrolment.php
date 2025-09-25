@@ -6,10 +6,10 @@ use DateTimeImmutable;
 
 class Enrolment
 {
-    private Student $student;
-    private Course $course;
-    private DateTimeImmutable $startDate;
-    private DateTimeImmutable $endDate;
+    private $student;
+    private $course;
+    private $startDate;
+    private $endDate;
 
     public function __construct(Student $student, Course $course, DateTimeImmutable $startDate, DateTimeImmutable $endDate)
     {
