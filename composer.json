@@ -8,12 +8,12 @@
   },
   "autoload": {
     "psr-4": {
-      "LMS\\": "src/"
+      "LMS\\": "src/LMS/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "LMS\\Tests\\": "tests/"
+      "Tests\\": "tests/"
     }
   },
   "minimum-stability": "stable",

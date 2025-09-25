@@ -1,14 +1,23 @@
 <?php
 
-namespace LMS\Tests;
+namespace Tests;
 
-use PHPUnit\Framework\TestCase;
-use LMS\{Student, Course, Enrolment, AccessControlService};
-use LMS\Content\{Lesson, Homework, PrepMaterial};
 use DateTimeImmutable;
+use LMS\AccessControlService;
+use LMS\Content\Homework;
+use LMS\Content\Lesson;
+use LMS\Content\PrepMaterial;
+use LMS\Course;
+use LMS\Enrolment;
+use LMS\Student;
+use PHPUnit\Framework\TestCase;
 
-class AccessControlTest extends TestCase
+class AccessControlServiceTest extends TestCase
 {
+    public function testDummy()
+    {
+        $this->assertTrue(true);
+    }
     private Student $emma;
     private Course $biology;
     private Enrolment $enrolment;
@@ -74,6 +83,7 @@ class AccessControlTest extends TestCase
         $this->assertFalse($this->acs->canAccess($this->emma, $this->biology, $prep, $at));
     }
 
+    // Helper
     private function findContentById(string $id)
     {
         foreach ($this->biology->getContents() as $c) {
