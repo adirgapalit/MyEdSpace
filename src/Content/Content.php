@@ -21,10 +21,5 @@ abstract class Content
         return $this->id;
     }
 
-    public function getTitle(): string
-    {
-        return $this->title;
-    }
-
     abstract public function isAvailable(Course $course, DateTimeImmutable $at): bool;
 }

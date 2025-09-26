@@ -37,20 +37,8 @@ class Course
         return $this->startDate;
     }
 
-    public function getEndDate(): ?DateTimeImmutable
-    {
-        return $this->endDate;
-    }
-
     public function hasStarted(DateTimeImmutable $at): bool
     {
         return $at >= $this->startDate;
-    }
-
-    public function isRunning(DateTimeImmutable $at): bool
-    {
-        if ($at < $this->startDate) return false;
-        if ($this->endDate !== null && $at > $this->endDate) return false;
-        return true;
     }
 }
