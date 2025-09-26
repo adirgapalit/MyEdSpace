@@ -21,8 +21,6 @@ class Enrolment
 
     public function getStudent(): Student { return $this->student; }
     public function getCourse(): Course { return $this->course; }
-    public function getStartDate(): DateTimeImmutable { return $this->startDate; }
-    public function getEndDate(): DateTimeImmutable { return $this->endDate; }
 
     public function isActiveAt(DateTimeImmutable $at): bool
     {

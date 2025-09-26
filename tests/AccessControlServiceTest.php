@@ -79,7 +79,6 @@ class AccessControlServiceTest extends TestCase
         $this->assertFalse($this->acs->canAccess($this->emma, $this->biology, $prep, $at));
     }
 
-    // Helper
     private function findContentById(string $id)
     {
         foreach ($this->biology->getContents() as $c) {

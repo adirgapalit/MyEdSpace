@@ -9,6 +9,7 @@ use LMS\Content\Lesson;
 use LMS\Content\Homework;
 use LMS\Content\PrepMaterial;
 
+//set some data for running
 $emma = new Student('s1', 'Emma');
 
 $courseStart = new DateTimeImmutable('2025-05-13');
